@@ -65,7 +65,7 @@ class Hashable extends ClassExtension
                 \$hash .= substr(sha1(microtime(true).mt_rand(111111, 999999)), mt_rand(0, 39), 1);
             };
 
-            \$result = \$this->getRepository()->getCollection()->findOne(array('$field' => \$hash));
+            \$result = \$this->getRepository()->createQuery(array('$field' => \$hash))->one();
         } while (\$result);
 
         \$this->$fieldSetter(\$hash);
