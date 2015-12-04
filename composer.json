@@ -1,6 +1,6 @@
 {
     "name": "netom/mandango-behaviors",
-    "description": "Bahaviors for Mandango, the Simple, powerful and ultrafast Object Document Mapper (ODM) for PHP and MongoDB",
+    "description": "Behaviors for Mandango, the Simple, powerful and ultrafast Object Document Mapper (ODM) for PHP and MongoDB",
     "homepage": "http://mandango.org/",
     "keywords": ["mandango","behaviors"],
     "type": "library",
